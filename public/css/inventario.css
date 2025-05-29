@@ -1,0 +1,30 @@
+.no-image {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    color: #888;
+    font-size: 14px;
+}
+.card-img-top {
+    max-height: 180px;
+    object-fit: cover;
+    width: 100%;
+}
+/* Spinner de carga */
+.spinner-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99999;
+}
+
+.d-none {
+    display: none !important;
+}

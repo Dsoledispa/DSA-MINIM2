@@ -1,0 +1,35 @@
+#btnCarrito {
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    z-index: 9999;
+}
+
+.card {
+    transition: transform 0.2s;
+}
+.card:hover {
+    transform: scale(1.03);
+}
+.card-img-top {
+    max-height: 180px;
+    object-fit: cover;
+}
+
+/* Spinner de carga */
+.spinner-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99999;
+}
+
+.d-none {
+    display: none !important;
+}
